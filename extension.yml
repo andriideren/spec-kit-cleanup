@@ -5,10 +5,10 @@ extension:
   name: "Cleanup Extension"
   version: "1.0.0"
   description: "Post-implementation quality gate that reviews changes, fixes small issues (scout rule), creates tasks for medium issues, and generates analysis for large issues."
-  author: "dsrednicki"
-  repository: "https://github.com/dsrednicki/spec-kit-cleanup"
+  author: "andriideren"
+  repository: "https://github.com/andriideren/spec-kit-cleanup"
   license: "MIT"
-  homepage: "https://github.com/dsrednicki/spec-kit-cleanup"
+  homepage: "https://github.com/andriideren/spec-kit-cleanup"
 
 requires:
   speckit_version: ">=0.1.0"
@@ -22,7 +22,7 @@ provides:
     - name: "speckit.cleanup.run"
       file: "commands/cleanup.md"
       description: "Review implementation, fix small issues, identify tech debt"
-      aliases: ["speckit.cleanup"]
+      aliases: ["speckit.cleanup.run"]
 
   config:
     - name: "cleanup-config.yml"
