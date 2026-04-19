@@ -11,7 +11,7 @@ specify extension add cleanup
 Or install from repository directly:
 
 ```bash
-specify extension add cleanup --from https://github.com/dsrednicki/spec-kit-cleanup/archive/refs/tags/v1.0.0.zip
+specify extension add cleanup --from https://github.com/andriideren/spec-kit-cleanup/archive/refs/tags/1.0.0.zip
 ```
 
 ## Usage
